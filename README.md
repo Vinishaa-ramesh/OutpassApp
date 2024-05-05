@@ -8,59 +8,39 @@ This repository contains a simple capacitor app created for the Outpass App.
 
 To get started, clone this repository:
 
-git clone https://github.com/Vinishaa-ramesh/OutpassApp.git
-
-css
-Copy code
+```git clone https://github.com/Vinishaa-ramesh/OutpassApp.git```
 
 Navigate to the project directory:
 
-cd Outpass-App
-
-mathematica
-Copy code
+```cd Outpass-App```
 
 Install dependencies:
 
-npm install
-
-yaml
-Copy code
+```npm install```
 
 Build the Ionic app:
 
-ionic build
-
-css
-Copy code
+```ionic build```
 
 ### Viewing in Browser
 
 To view the app in a browser, run:
 
-ionic serve
-
-python
-Copy code
+```ionic serve```
 
 ### Opening in Android
 
 To open the app in an Android emulator or device, sync the project with Capacitor and then open the Android project:
 
-npx cap sync android
-npx cap open android
+```npx cap sync android```
 
-bash
-Copy code
+```npx cap open android```
 
 ### Live Reload
 
 To enable live reload functionality, run the following command with the `--external` flag:
 
-ionic serve --external
-
-perl
-Copy code
+```ionic serve --external```
 
 Copy the external link provided and paste it into the `server.url` field in the `capacitor.config.ts` file.
 
